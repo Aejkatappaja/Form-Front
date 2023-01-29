@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <script
+      src="https://kit.fontawesome.com/4561f8752f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+    <title>Form</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <form id="contactForm">
+      <h1>Contact us</h1>
+
+      <label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="First Name"
+          value=""
+      /></label>
+
+      <label>
+        <input
+          type="text"
+          name="name"
+          id="lastname"
+          placeholder="Last Name"
+          value=""
+      /></label>
+
+      <label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          value=""
+      /></label>
+
+      <label>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Subject"
+          value=""
+      /></label>
+
+      <label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="..."
+        ></textarea>
+      </label>
+
+      <div class="last">
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </body>
+</html>
