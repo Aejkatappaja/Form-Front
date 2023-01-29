@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(data);
 
       const response = await axios.post(
-        "form--first-fullstack-exercise--dlbmkp758p4j.code.run",
+        "form--first-fullstack-exercise--dlbmkp758p4j.code.run/form",
         data
       );
       console.log(response);
