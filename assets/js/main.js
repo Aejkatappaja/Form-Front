@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document
     .querySelector("#contactForm")
-    .addEventListener("submit", async (e) => {
-      e.preventDefault();
+    .addEventListener("submit", async (event) => {
+      event.preventDefault();
+      console.log("submit");
 
       const data = {
         firstname: document.querySelector("#firstname").value,
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(data);
 
       const response = await axios.post(
-        "form--first-fullstack-exercise--dlbmkp758p4j.code.run/form",
+        "https://form--first-fullstack-exercise--dlbmkp758p4j.code.run/form",
         data
       );
       console.log(response);
