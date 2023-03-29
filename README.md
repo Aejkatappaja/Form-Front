@@ -1,6 +1,6 @@
 # Form 📝
 
-Form front-end awaiting back-end response onSubmit and sending mail with mailGun.
+Form Front awaiting back-end response onSubmit and sending mail with mailGun.
 
 ## How ?
 
